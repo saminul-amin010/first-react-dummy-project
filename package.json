@@ -1,13 +1,13 @@
 {
-  "homepage": "https://saminul-amin.github.io/first-react-dummy-project",
+  "homepage": "https://saminul-amin010.github.io/first-react-dummy-project/",
   "name": "react-essentials-start",
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.0.0",
